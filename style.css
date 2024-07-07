@@ -1,1 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+
+ul, li, figure {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1280px;
+    min-height: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    text-align: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link  {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.left-column {
+    width: 30%;
+    padding: 50px;
+    border-right: 1px solid #ddd;
+    background-color: #333;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right-column p,
+.right-column ul{
+    color: #333;
+}
+
+
+.cv-photo {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.main-photo {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.section-title {
+    position: relative;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.contact-item {
+    list-style: none;
+    line-height: 2;
+}
+
+.contact-item__link {
+    color: white;
+}
+
+.contacts p, .skills ul, .projects ul, .experience .job ul, .education .edu p {
+    margin: 5px 0;
+}
+
+.skill {
+    margin-bottom: 25px;
+}
+
+.skills .skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background: #727176;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    background: white;
+    height: 10px;
+}
+
+.skill-html {
+    width: 90%;
+}
+
+.skill-js {
+    width: 30%;
+}
+
+.skill-bitrix,
+.skill-eng {
+    width: 50%;
+}
+
+.skill-figma {
+    width: 65%;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-link {
+    color: white;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    margin: 0;
+}
+
+.main-subtitle {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+ 
+}
+
+.right-block {
+    background-color:#333;
+    margin-left: -21px;
+    padding-left: 20px;
+}
+
+.job, .edu {
+    margin-bottom: 20px;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job li {
+    list-style: disc;
+}
+
+.job a {
+    color: inherit;
+}
+
+h4 {
+    margin: 5px 0;
+    color: #555;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-right: 20px;
+}
+code {
+    font-family: Consolas, "Courier New", monospace;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+}
 
